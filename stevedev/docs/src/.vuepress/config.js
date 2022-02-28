@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Stephen Thurgood Reitz',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -27,24 +27,25 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'ssk42/stevereitzdotdev',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    // navbar: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Blogs',
+        link: '/Blogs/'
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Resume',
+        link: '/Resume/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'Portfolio',
+        link: '/Portfolio/'
+      },
     ],
     sidebar: {
       '/guide/': [
