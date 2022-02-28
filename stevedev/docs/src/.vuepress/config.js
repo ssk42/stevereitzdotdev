@@ -10,6 +10,8 @@ module.exports = {
    */
   description: description,
 
+  base: "/stevereitzdotdev/",
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -48,14 +50,14 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/guide/': [
+      '/Resume/': [
         {
-          title: 'Guide',
+          title: 'Resume',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
-            'Steve'
+            'Work-Experience',
+            'Volunteer-Experience',
+            'Technical-Skills',
           ]
         }
       ],
@@ -65,6 +67,16 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'Example-Blog'
+          ]
+        }
+      ],
+      '/Portfolio/': [
+        {
+          title: 'Portfolio',
+          collapsable: false,
+          children: [
+            'Salesforce-Projects',
           ]
         }
       ],

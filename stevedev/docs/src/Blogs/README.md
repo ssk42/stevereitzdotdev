@@ -1,1 +1,3 @@
-# Steve Rules
+# Blog intro
+
+Lorem ipsum
